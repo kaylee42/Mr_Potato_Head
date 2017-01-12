@@ -44,7 +44,10 @@ h1 {
 
 /* Insert CSS for mouth below this line*/
 
-
+#mouth_image {
+  top: 180px;
+  left:120px;
+}
 
 
 /* Insert CSS for nose below this line*/
