@@ -24,8 +24,8 @@ h1 {
 /* Insert CSS for arms below this line*/
 
 #arms_image {
-  top:170px;
-  left: 30px;
+  top:179px;
+  left:25px;
 }
 
 
@@ -61,6 +61,10 @@ h1 {
 
 
 /* Insert CSS for glasses below this line*/
+#glasses_image{
+  top:100px;
+  left:99px;
+}
 
 
 
