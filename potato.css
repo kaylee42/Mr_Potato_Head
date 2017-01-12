@@ -80,8 +80,10 @@ h1 {
 
 
 
-/* Insert CSS for earrings below this line*/
-
+#earrings_image {
+  top:200px;
+  left: 100px;
+}
 
 
 
