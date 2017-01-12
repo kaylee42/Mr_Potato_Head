@@ -1,1 +1,2 @@
-
+$(#mouth_image).hide()
+    )
