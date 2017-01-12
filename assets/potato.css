@@ -6,7 +6,7 @@ h1 {
 #potato {
   position: relative;
   width: 367px;
-  height: 428px;
+  height: 500px;
   border: 2px solid black;
   margin-left: auto;
   margin-right: auto;
@@ -19,9 +19,18 @@ h1 {
 
 #body { top: 28px; left: 68px; }
 
-#arms { top: 177px; left: 26px;}
+#arms { top: 177px; left: 26px; -webkit-animation: fadein 4s;}
+
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+#cane { top: 257px; left: 0px; z-index: 1 }
 
 #ears { top: 104px; left: 58px; }
+
+#earrings { top: 104px; left: 58px; z-index: 1; }
 
 #eyes { top: 126px; left: 132px; z-index: 4; }
 
@@ -35,6 +44,11 @@ h1 {
 
 #hat { top: 28px; left: 101px; z-index: 10;}
 
+#hatflower { top: 0px; left: 101px; z-index: 11;}
+
 #moustache { top: 189px; left: 91px; z-index: 5;}
 
-#shoes { top: 297px; left: 46px;}
+#shoes { top: 297px; left: 46px; z-index: 1;}
+
+#boosters { top: 350px; left: 46px;}
+
