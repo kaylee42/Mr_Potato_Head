@@ -89,14 +89,16 @@ h1 {
 
 
 
-/* Insert CSS for cane below this line*/
+#cane {
+  top:250px;
+left:6px;
+  }
 
 
 
-
-#earrings_image {
-  top:200px;
-  left: 100px;
+#earrings {
+  top:115px;
+  left: 59px;
 }
 
 
